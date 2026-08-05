@@ -157,6 +157,14 @@ code {
     color: var(--md-default-fg-color--light);
 }
 
+.plausible-attribution {
+    margin-top: 1.5rem;
+}
+
+.plausible-attribution a {
+    text-decoration: underline;
+}
+
 ol:not(.no-styling) {
     list-style: none;
     counter-reset: markdown-ordered-list;
