@@ -157,6 +157,22 @@ code {
     color: var(--md-default-fg-color--light);
 }
 
+.plausible-attribution {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    text-wrap: balance;
+    font-size: 12px;
+    color: var(--md-default-fg-color--light);
+}
+
+.plausible-attribution a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+
 ol:not(.no-styling) {
     list-style: none;
     counter-reset: markdown-ordered-list;
